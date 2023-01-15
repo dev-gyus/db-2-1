@@ -12,7 +12,7 @@ public class MemberService {
 //;;;
     private final MemberRepository memberRepository;
     private final LogRepository logRepository;
-
+//;;;
     @Transactional
     public void joinV1(String username) {
         Member member = new Member(username);
