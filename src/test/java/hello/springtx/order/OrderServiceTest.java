@@ -36,7 +36,7 @@ class OrderServiceTest {
     void runtimeException() throws NotEnoughMoneyException {
         // given
         Order order = new Order();
-        order.setUsername("예외");
+        order.setUsername("예외22");
         // when
         assertThatThrownBy(() -> orderService.order(order)).isInstanceOf(RuntimeException.class);
         // then
